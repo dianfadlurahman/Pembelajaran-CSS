@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Border Radius</title>
+    <style>
+        div {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+        }
+        .satu {
+            background-color: cadetblue;
+            border-radius: 150px;
+        }
+        .dua {
+            background-color: lime;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            background-image: url(dianfadlurahman.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .tiga {
+            background-color: darkorange;
+            border-radius: 0 50% 0 50%;
+            overflow: hidden;
+        }
+        div img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu">Hello World</div>
+    <br><br><br>
+    <div class="dua">Hello World</div>
+    <br><br><br>
+    <div class="tiga">
+        <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman">
+    </div>
+</body>
+</html>

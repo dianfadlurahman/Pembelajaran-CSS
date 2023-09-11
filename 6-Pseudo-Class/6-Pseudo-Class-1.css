@@ -1,0 +1,15 @@
+.link1:visited {
+    color: goldenrod;
+}
+.link2:link {
+    color: green;
+}
+.link2:hover {
+    color: orchid;
+    font-family: arial;
+    font-size: 25px;
+}
+.link3:active {
+    color: gray;
+    font-style: italic;
+}

@@ -1,0 +1,13 @@
+h1 {
+    color: gold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+p {
+    color: #0783a1;
+    text-align: justify;
+    text-indent: 100px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+}

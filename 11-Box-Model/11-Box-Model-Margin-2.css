@@ -1,0 +1,29 @@
+div {
+    display: inline-block;
+}
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin-right: 50px;
+}
+
+.dua {
+    width: 150px;
+    height: 150px;
+    background-color: burlywood;
+    margin-left: 30px;
+}
+
+.tiga {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.empat {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}

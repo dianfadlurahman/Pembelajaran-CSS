@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Radial Gradient</title>
+    <style>
+        div {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+        }
+        .satu {
+            background-image: radial-gradient(red, #f0d606, rgba(255, 255, 0, 0.9), green);
+        }
+        .dua {
+            background-image: radial-gradient(red 63%, green 80%);
+        }
+        .tiga {
+            background-image: radial-gradient(circle, red,  green);
+        }
+        .empat {
+            background-image: radial-gradient(circle closest-side , red, green);
+        }
+        .lima {
+            background-image: radial-gradient(circle farthest-corner , red, green);
+        }
+        .enam {
+            background-image: radial-gradient(circle farthest-side at top left, red, green);
+        }
+    </style>
+</head>
+<body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    <div class="empat"></div>
+    <div class="lima"></div>
+    <div class="enam"></div>
+</body>
+</html>

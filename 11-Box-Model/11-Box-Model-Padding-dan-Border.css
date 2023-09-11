@@ -1,0 +1,54 @@
+.satu {
+    width: 250px;
+    height: 250px;
+    background-color: hotpink;
+    margin: 50px auto;
+    padding: 10px 20px 30px 40px;
+    border: 5px dashed blue;
+}
+
+.dua {
+    width: 250px;
+    height: 250px;
+    background-color: hotpink;
+    margin: 50px auto;
+    padding: 20px;
+    border-left: 5px double black;
+    border-right: 10px dotted purple;
+}
+
+.tiga {
+    width: 600px;
+    background-color: lightpink;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid red;
+
+}
+
+.empat {
+    width: 600px;
+    background-color: lightgreen;
+    margin: 10px auto;
+    padding: 30px;
+    border: 10px dashed blue;
+}
+
+.lima {
+    width: 600px;
+    background-color: lightpink;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    
+}
+
+.enam {
+    width: 600px;
+    background-color: lightgreen;
+    margin: 10px auto;
+    padding: 30px;
+    border: 10px dashed blue;
+    box-sizing: border-box;
+}

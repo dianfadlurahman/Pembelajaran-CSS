@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Transform</title>
+    <style>
+        /* 
+        scale(angka), scaleX(angka), scaleY(angka);
+        rotate(deg), rotateX(deg), rotateY(deg);
+        skew(deg), skewX(deg), skewY(deg);
+        translate(px), translateX(px), translateY(px); 
+        */
+        .kotak1, .kotak2, .kotak3, .kotak4, .kotak5, .kotak6, .kotak7 {
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            margin: 50px auto 0;
+            transition: 1s;
+        }
+        .kotak1:hover {
+            transform: scale(1.5, 2);
+        }
+        .kotak2:hover {
+            transform: rotate(45deg);
+        }
+        .kotak3:hover {
+            transform: rotateX(120deg);
+        }
+        .kotak4:hover {
+            transform: rotate(180deg) rotateX(180deg) rotateY(180deg);
+        }
+        .kotak5:hover {
+            transform: skew(30deg);
+        }
+        .kotak6:hover {
+            transform: translate(120px, 20px);
+        }
+        .kotak7:hover {
+            transform: scale(3) rotate(360deg) translate(120px);
+        }
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+    <div class="kotak3"></div>
+    <div class="kotak4"></div>
+    <div class="kotak5"></div>
+    <div class="kotak6"></div>
+    <div class="kotak7"></div>
+    <p>
+        Ekstensi file HTML adalah .html atau .htm, yang bisa dilihat dengan mengunakan web browser apa pun
+        (seperti Google Chrome, Safari, atau Mozila Firefox).
+        Browser tersebut membaca file HTML dan merender kontennya sehingga user internet bisa melihat dan membacanya.
+    </p>
+</body>
+</html>

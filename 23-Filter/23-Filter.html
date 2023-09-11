@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Filter</title>
+    <style>
+        /* FILTER:
+        blur,
+        brightness,
+        contrast,
+        saturate,
+        grayscale,
+        sepia,
+        hue-rotate,
+        invert,
+        opacity,
+        drop-shadow. */
+        body {
+            text-align: center;
+        }
+        .satu {
+            filter: blur(5px);
+        }
+        .dua {
+            filter: brightness(50%);
+        }
+        .tiga {
+            filter: contrast(150%);
+        }
+        .empat {
+            filter: saturate(200%);
+        }
+        .lima {
+            filter: grayscale(80%);
+        }
+        .enam {
+            filter: sepia(80%);
+        }
+        .tujuh {
+            filter: hue-rotate(90deg);
+        }
+        .delapan {
+            filter: invert(70%);
+        }
+        .sembilan {
+            filter: opacity(40%);
+        }
+        .sepuluh, h1 {
+            filter: drop-shadow(5px 5px 5px black);
+        }
+        .sebelas {
+            filter: blur(4px) grayscale(80%);
+        }
+        .sebelas:hover {
+            filter: blur(0) grayscale(0);
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <p>Asli</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman">
+    <br><br><br>
+    <p>Blur</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="satu">
+    <br><br><br>
+    <p>Brightness</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="dua">
+    <br><br><br>
+    <p>Contrast</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="tiga">
+    <br><br><br>
+    <p>Saturate</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="empat">
+    <br><br><br>
+    <p>Grayscale</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="lima">
+    <br><br><br>
+    <p>Sepia</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="enam">
+    <br><br><br>
+    <p>Hue-Rotate</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="tujuh">
+    <br><br><br>
+    <p>Invert</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="delapan">
+    <br><br><br>
+    <p>Opacity</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="sembilan">
+    <br><br><br>
+    <p>Drop-Shadow</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="sepuluh">
+    <h1>DIAN FADLU RAHMAN</h1>
+    <br><br><br>
+    <p>Kombinasi</p>
+    <img src="dianfadlurahman.png" alt="Dian Fadlu Rahman" class="sebelas">
+</body>
+</html>

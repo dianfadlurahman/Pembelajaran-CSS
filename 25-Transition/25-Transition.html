@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Transition</title>
+    <style>
+        .kotak1, .kotak2 {
+            width: 150px;
+            height: 150px;
+            background-color: chartreuse;
+        }
+        .kotak1 {
+            transition: 1s;
+        }
+        .kotak1:hover {
+            transform: rotate(180deg);
+        }
+        .kotak2 {
+            transition: margin-left 1s;
+        }
+        .container {
+            width: 900px;
+            margin: 10px auto;
+            border: 5px solid black;
+        }
+        .container:hover .kotak2 {
+            transform: rotate(700deg);
+            margin-left: 700px;
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="container">
+        <div class="kotak2"></div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Font Face 2</title>
+    <style>
+        @font-face {
+            font-family: "Alex Brush";
+            src: url('AlexBrush-Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'open_sansregular';
+            src: url('OpenSans-Regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'alex_brushregular';
+            src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+                 url('alexbrush-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .satu {
+            font-size: 100px;
+            text-align: center;
+            font-family: "Alex Brush", arial;
+        }
+        .dua {
+            font-size: 100px;
+            text-align: center;
+            font-family: 'open_sansregular', arial;
+        }
+        .tiga {
+            font-size: 100px;
+            text-align: center;
+            font-family: 'alex_brushregular', arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="satu">Hello World</h1>
+    <br><br>
+    <h1 class="dua">Hello World</h1>
+    <br><br>
+    <h1 class="tiga">Hello World</h1>
+</body>
+</html>
