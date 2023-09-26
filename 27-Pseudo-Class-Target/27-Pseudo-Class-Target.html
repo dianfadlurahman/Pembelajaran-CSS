@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Pseudo Class Target</title>
+    <style>
+        /* 
+        :target {
+            background-color: cornflowerblue;
+        }
+         */
+        .p1:target {
+            background-color: cornflowerblue;
+        }
+        .p2:target {
+            background-color: gold;
+        }
+        .p3:target {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#p1">Aktifkan paragraf 1</a></li>
+        <li><a href="#p2">Aktifkan paragraf 2</a></li>
+        <li><a href="#p3">Aktifkan paragraf 3</a></li>
+    </ul>
+    <h1 id="judul">Hello World</h1>
+    <p id="p1" class="p1">Paragraf 1</p>
+    <p id="p2" class="p2">Paragraf 2</p>
+    <p id="p3" class="p3">Paragraf 3</p>
+</body>
+</html>

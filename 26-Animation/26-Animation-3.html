@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Animation 3</title>
+    <style>
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+            margin-bottom: 10px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .kotak1:hover {
+            animation: animasiKotak 2s ease 5 normal;
+        }
+        .kotak2:hover {
+            animation: animasiKotak 2s ease 5 reverse;
+        }
+        .kotak3:hover {
+            animation: animasiKotak 2s ease 5 alternate;
+        }
+        .kotak4:hover {
+            animation: animasiKotak 2s ease 5 alternate-reverse;
+        }
+        @keyframes animasiKotak {
+            0% {
+                width: 200px;
+            }
+            50% {
+                width: 500px;
+                height: 200px;
+            }
+            100% {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Direction</h1>
+    <div class="kotak kotak1">Normal</div>
+    <div class="kotak kotak2">Reverse</div>
+    <div class="kotak kotak3">Alternate</div>
+    <div class="kotak kotak4">Alternate Reverse</div>
+</body>
+</body>
+</html>

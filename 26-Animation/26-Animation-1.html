@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Animation 1</title>
+    <style>
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+        }
+        .kotak1:hover {
+            animation: animasiKotak1 2s ease;
+        }
+        .kotak2:hover {
+            animation: animasiKotak2 2s ease;
+        }
+        @keyframes animasiKotak1 {
+            from {
+                width: 200px;
+            }
+            to {
+                width: 500px;
+            }
+        }
+        @keyframes animasiKotak2 {
+            0% {
+                width: 200px;
+            }
+            50% {
+                width: 500px;
+                height: 200px;
+            }
+            100% {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak kotak1"></div>
+    <br>
+    <div class="kotak kotak2"></div>
+</body>
+</html>

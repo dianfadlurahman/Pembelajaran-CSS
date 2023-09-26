@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Transition 2</title>
+    <style>
+        .kotak {
+            width: 150px;
+            height: 150px;
+            background-color: chartreuse;
+            text-align: center;
+            line-height: 150px;
+            margin: 5px 0;
+        }
+        .kotak1 {
+            transition: all 3s;
+        }
+        .kotak2 {
+            transition: all 3s ease-in;
+        }
+        .kotak3 {
+            transition: all 3s ease-out;
+        }
+        .kotak4 {
+            transition: all 3s ease-in-out;
+        }
+        .kotak5 {
+            transition: all 3s linear;
+        }
+        .kotak6 {
+            transition: all 3s cubic-bezier(0.41,-0.5, 0.55, 1.74);
+        }
+        .kotak7 {
+            transition: 3s 2s;
+        }
+        .kotak8 {
+            transition: margin-left 3s, transform 3s 2s, background-color 2s 3s;
+        }
+        .container {
+            width: 900px;
+            margin: 10px auto;
+            border: 5px solid black;
+        }
+        .container:hover .kotak {
+            transform: rotate(720deg);
+            margin-left: 750px;
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kotak kotak1">ease</div>
+        <div class="kotak kotak2">ease-in</div>
+        <div class="kotak kotak3">ease-out</div>
+        <div class="kotak kotak4">ease-in-out</div>
+        <div class="kotak kotak5">linear</div>
+        <div class="kotak kotak6">cubic-bezier</div>
+        <div class="kotak kotak7">dengan delay</div>
+        <div class="kotak kotak8">kombinasi</div>
+    </div>
+</body>
+</html>

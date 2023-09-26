@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar CSS Animation 4</title>
+    <style>
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: burlywood;
+            margin-bottom: 10px;
+            text-align: center;
+            line-height: 200px;
+        }
+        .kotak1:hover {
+            animation: animasiKotak 2s ease 3 alternate;
+        }
+        /* fill-mode */
+        .kotak2:hover {
+            animation: animasiKotak 2s ease 3 alternate forwards;
+        }
+        /* play-state */
+        .kotak3:hover {
+            animation: animasiKotak 2s ease 3 alternate forwards paused;
+        }
+        @keyframes animasiKotak {
+            0% {
+                width: 200px;
+            }
+            50% {
+                width: 500px;
+                height: 200px;
+            }
+            100% {
+                width: 500px;
+                height: 500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak kotak1">Kotak Awal</div>
+    <div class="kotak kotak2">Forwards</div>
+    <div class="kotak kotak3">Paused</div>
+</body>
+</body>
+</html>
